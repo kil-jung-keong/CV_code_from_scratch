@@ -1,0 +1,9 @@
+model:
+  weights_path: "weights/unet.pth"
+input:
+  image_path: "input/example_image.jpg"
+output:
+  save_path: "output/result.png"
+inference:
+  device: "cuda"  # or "cpu"
+  threshold: 0.5
